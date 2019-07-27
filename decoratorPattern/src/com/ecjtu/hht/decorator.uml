@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="192.78750000000002" y="0.0">com.ecjtu.hht.Tea</node>
+    <node x="549.5666666666667" y="316.0">com.ecjtu.hht.CoconutIngredientsDecorator</node>
+    <node x="0.0" y="316.0">com.ecjtu.hht.PearlIngredientsDecorator</node>
+    <node x="366.5375" y="192.0">com.ecjtu.hht.AbstractIngredientsDecorator</node>
+    <node x="227.53750000000002" y="180.0">com.ecjtu.hht.RedTea</node>
+    <node x="88.53750000000002" y="180.0">com.ecjtu.hht.MilkTea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ecjtu.hht.PearlIngredientsDecorator" target="com.ecjtu.hht.Tea">
+      <point x="-98.0" y="-66.5" />
+      <point x="49.0" y="291.0" />
+      <point x="67.03750000000002" y="291.0" />
+      <point x="67.03750000000002" y="130.0" />
+      <point x="199.95416666666668" y="130.0" />
+      <point x="-57.33333333333334" y="55.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.MilkTea" target="com.ecjtu.hht.Tea">
+      <point x="-29.75" y="-43.0" />
+      <point x="118.28750000000002" y="150.0" />
+      <point x="228.62083333333337" y="150.0" />
+      <point x="-28.666666666666657" y="55.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.CoconutIngredientsDecorator" target="com.ecjtu.hht.Tea">
+      <point x="0.0" y="-66.5" />
+      <point x="706.5666666666667" y="291.0" />
+      <point x="726.5" y="291.0" />
+      <point x="726.5" y="140.0" />
+      <point x="300.2875" y="140.0" />
+      <point x="43.0" y="55.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.CoconutIngredientsDecorator" target="com.ecjtu.hht.AbstractIngredientsDecorator">
+      <point x="-104.66666666666669" y="-66.5" />
+      <point x="601.9000000000001" y="291.0" />
+      <point x="609.5375" y="291.0" />
+      <point x="81.0" y="31.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.RedTea" target="com.ecjtu.hht.Tea">
+      <point x="-29.75" y="-43.0" />
+      <point x="0.0" y="55.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.PearlIngredientsDecorator" target="com.ecjtu.hht.AbstractIngredientsDecorator">
+      <point x="98.0" y="-66.5" />
+      <point x="245.0" y="291.0" />
+      <point x="447.5375" y="291.0" />
+      <point x="-81.0" y="31.0" />
+    </edge>
+    <edge source="com.ecjtu.hht.AbstractIngredientsDecorator" target="com.ecjtu.hht.Tea">
+      <point x="0.0" y="-31.0" />
+      <point x="528.5375" y="150.0" />
+      <point x="285.9541666666667" y="150.0" />
+      <point x="28.666666666666686" y="55.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="315.0" y="276.5" />
+  <SelectedNodes>
+    <node>com.ecjtu.hht.MilkTea</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
