@@ -7,14 +7,10 @@ package com.ecjtu.hht;
  */
 public abstract class Tea {
 
-    protected String description;
-
-    Tea() {
-        description = "还不知道什么茶";
-    }
+    String description = "还不知道什么茶";
 
     public String getDescription() {
-        return this.description;
+        return description;
     }
 
     /**

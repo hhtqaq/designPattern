@@ -11,5 +11,6 @@ public abstract class AbstractIngredientsDecorator extends Tea {
      *
      * @return
      */
-    public abstract String description();
+    @Override
+    public abstract String getDescription();
 }

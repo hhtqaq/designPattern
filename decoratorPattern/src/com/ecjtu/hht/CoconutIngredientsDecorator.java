@@ -13,7 +13,7 @@ public class CoconutIngredientsDecorator extends AbstractIngredientsDecorator {
     }
 
     @Override
-    public String description() {
+    public String getDescription() {
         return "椰果" + tea.getDescription();
     }
 

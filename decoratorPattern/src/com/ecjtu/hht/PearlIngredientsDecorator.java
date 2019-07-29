@@ -14,7 +14,7 @@ public class PearlIngredientsDecorator extends AbstractIngredientsDecorator {
     }
 
     @Override
-    public String description() {
+    public String getDescription() {
         return "珍珠" + this.tea.getDescription();
     }
 
